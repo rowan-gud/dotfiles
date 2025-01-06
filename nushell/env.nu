@@ -20,3 +20,5 @@ $env.PATH = ($env.PATH
     | split row (char esep)
     | prepend $'($env.FNM_MULTISHELL_PATH)/bin'
 )
+
+alias brew = arch -arm64 /opt/homebrew/bin/brew
